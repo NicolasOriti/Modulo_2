@@ -7,48 +7,45 @@ console.log('num2: ', num2);
 
 // 1- Operadores de asignacion
 
-// num3 += 5; // num1 = num1 + 5;
-// num3 -= 5; // num1 = num1 - 5;
-// num3 *= 5; // num1 = num1 * 5;
-// num3 /= 5; // num1 = num1 / 5;
-// num3 %= 5; // num1 = num1 % 5;
+num3 += 5; // num1 = num1 + 5;
+num3 -= 5; // num1 = num1 - 5;
+num3 *= 5; // num1 = num1 * 5;
+num3 /= 5; // num1 = num1 / 5;
+num3 %= 5; // num1 = num1 % 5;
 
-// // 2- Operadores aritmeticos
+// 2- Operadores aritmeticos
 
-// // Suma
-// let suma = num1 + num2;
-// console.log('Suma = ', suma);
+// Suma
+let suma = num1 + num2;
+console.log('Suma = ', suma);
 
-// // Resta
-// let resta = num1 - num2;
-// console.log('Resta = ', resta);
+// Resta
+let resta = num1 - num2;
+console.log('Resta = ', resta);
 
-// // Multiplicacion
-// let multiplicacion = num1 * num2;
-// console.log('Multiplicacion = ', multiplicacion);
+// Multiplicacion
+let multiplicacion = num1 * num2;
+console.log('Multiplicacion = ', multiplicacion);
 
-// // Division
-// let division = num1 / num2;
-// console.log('Division = ', division);
+// Division
+let division = num1 / num2;
+console.log('Division = ', division);
 
-// // Modulo || Resto
-// let resto = num1 % num2;
-// console.log('Resto = ', resto);
+// Modulo || Resto
+let resto = num1 % num2;
+console.log('Resto = ', resto);
 
-// // 3- Operadores unitarios
+// 3- Operadores unitarios
 
-// // Incremento
-// // num1 = num1 + 1;
-// num1++;
-// console.log('Incremento: ', num1);
+// Incremento
+// num1 = num1 + 1;
+num1++;
+console.log('Incremento: ', num1);
 
-// // Decremento
-// // num2 = num2 - 1;
-// num2--;
-// console.log('Decremento: ', num2);
-
-// let verdadero = !false;
-// let falso = !verdadero;
+// Decremento
+// num2 = num2 - 1;
+num2--;
+console.log('Decremento: ', num2);
 
 // 4- Operadores relacionales
 
@@ -76,6 +73,6 @@ console.log('OR: ', true || false);
 console.log('OR: ', false || true);
 console.log('OR: ', false || false);
 
-// NOT 
+// NOT
 console.log('NOT: ', !true);
 console.log('NOT: ', !false);
