@@ -1,63 +1,41 @@
-// alert("Hola Mundo")
-// Alert
-// ALERT
-// aLErt
 /* 
-  Esto es
-  un comentario
-  multilinea
+Tarea:
+1- Hacer el quiz de Introducción a JavaScript
+2- Usando métodos matemáticos
+Ingresar 3 números
+Indicar cual es el mayor
+Indicar cual es el menor
+Obtener la raíz cuadrada del segundo número
+3- Usando métodos de string
+Recibir un nombre completo como entrada y utilice 
+split para dividirlo en nombre y apellido, y luego 
+use charAt y toUpperCase para capitalizar la primera 
+letra de cada palabra. 
 */
 
-// VARIABLES
-// Es un espacio en memoria donde se guardan dates que se puede reutilizar
+// let num1 = Number(prompt('Ingrese el primer numero'));
+// let num2 = Number(prompt('Ingrese el segundo numero'));
+// let num3 = Number(prompt('Ingrese el tercer numero'));
 
-// Declaracion e inicializacion de una variable
-let nombre = 'Nicolas'; // let nos permite declarar una variable para el ambito donde se use
-var apellido = 'Oriti Tizio'; // var declara una variable siempre GLOBAL sin importar donde se use
-const PI = 3.14; // const define una variable que no puede modificarse (CONSTANTE)
+// let numMax = Math.max(num1, num2, num3);
+// console.log('El numero mayor es: ' + numMax);
 
-// Tipos de datos
+// let numMin = Math.min(num1, num2, num3);
+// console.log('El numero menor es: ' + numMin);
 
-// PRIMITIVOS:
+// console.log(`La raiz cuadrada de ${num2} es: ${Math.sqrt(num2)}`);
 
-// String || Cadena de texto
-let vendedor = 'Enrico';
-let vendedor2 = 'Gonzalo';
-console.log('Vendedor: ', vendedor);
+let nombreCompleto = prompt('Ingrese su nombre completo');
 
-// Number || Numero
-let num1 = 23;
-let num2 = 10;
-console.log('num1: ', num1);
-console.log('num2: ', num2);
+let nombreYApellido = nombreCompleto.split(' ');
 
-// Boolean || Buleanos
-let verdadero = true;
-let falso = false;
-console.log('verdadero: ', verdadero);
-console.log('falso: ', falso);
+let nombre = nombreYApellido[0];
+let apellido = nombreYApellido[1];
 
-// Null || Nulo
-let dinero = null;
-console.log('dinero: ', dinero);
+nombre = nombre.charAt(0).toUpperCase() + nombre.slice(1);
+apellido = apellido.charAt(0).toUpperCase() + apellido.slice(1);
 
+// let [nombre, apellido] = nombreCompleto.split(' ');
 
-// Undefined || Indefinido
-let sueldo;
-console.log('sueldo: ', sueldo);
-
-
-// COMPLEJOS
-
-// Array || Arreglo
-let nombreVariable = []
-let arreglo = [1, 2, 3, 4, 5];
-
-
-// Object || Objeto
-let persona = {
-  nombre: "Nicolas",
-  apellido: "Oriti Tizio",
-  edad: 23,
-  ciudadNatal: "Rosario"
-}
+console.log(nombreYApellido);
+console.log(nombre, apellido);
