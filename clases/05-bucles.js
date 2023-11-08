@@ -1,9 +1,9 @@
 let contador = 17; //inicializacion del contador
 
-while (contador % 15 !== 0) {
-  console.log(`El nro ${contador} NO es divisible por 15`);
-  contador += 2;
-}
+// while (contador % 15 !== 0) {
+//   console.log(`El nro ${contador} NO es divisible por 15`);
+//   contador += 2;
+// }
 
 // do {
 //   console.log(`Hola mundo el contador es: ${contador}`);
