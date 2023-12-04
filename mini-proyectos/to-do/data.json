@@ -1,0 +1,9 @@
+{
+  "nombre": "Luis",
+  "apellido": "Perez",
+  "imagen": {
+    "url": "http://www.google.com",
+    "alt": "Imagen de Luis",
+    "class": "img-responsive"
+  }
+}
